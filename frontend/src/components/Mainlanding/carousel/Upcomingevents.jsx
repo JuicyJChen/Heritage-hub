@@ -85,13 +85,13 @@ const Upcomingevents=()=>{
     const arr=upcomingevent.map((el)=><UpcomingCards {...el}/>)
     
     return(
-        <div style={{maxWidth:"1120px",margin:"auto"}}>
+        <div style={{maxWidth:"10px"}}>
         <div className={style.head1}>
-            <h2 className={style.head2}>Upcoming online events</h2>
+            {/* <h2 className={style.head2}>Upcoming online events</h2>
             <div className={style.head3}><span className={style.head4}>Explore more groups</span>
-            Explore more groups</div>
+            Explore more groups</div> */}
         </div>
-             <SliderWrapper arr={arr} limit={4}  />
+             {/* <SliderWrapper arr={arr} limit={4}  /> */}
      </div>
         
     )

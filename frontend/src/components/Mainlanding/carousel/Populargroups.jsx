@@ -28,41 +28,25 @@ const Populargroup=()=>{
     
     const populargroups=[
         {
-            img:'https://secure-content.meetupstatic.com/images/classic-events/499449271/70x70.jpg?w=256',
-            head1:'Manhattan Professional Networking Meetup Group',
-            sub1:'Wed, Nov 17 @ 5:30 AM IST',
-            sub2:'NYC Networking Happy Hour Mixer 7-9PM'
+            img: 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2019_18/1432153/cinco-de-mayo-celebrations-today-main-190501.jpg',
+            sub1:'Cinco De Mayo Celebration',
+            sub2:'Join the vibrant Fiesta celebrations!'
         },
         {
-            img:'https://secure-content.meetupstatic.com/images/classic-events/499824685/70x70.jpg?w=256',
-            head1:'New York Energy Healing and Meditation',
-            sub1:'Fri, Nov 12 @ 12:30 AM IST',
-            sub2:'Peace workshop '
+            img:'https://www.hindustantimes.com/ht-img/img/2023/03/07/1600x900/We-put-together-cool-and-colourful-parties-taking-_1678190696194.jpg',
+            sub1:'Holi',
+            sub2:'Experience the Festival of Colors!'
         },
         {
-            img:'https://secure-content.meetupstatic.com/images/classic-events/500132135/70x70.jpg?w=256',
-            head1:'Shorewalkers: Members Only Group',
-            sub1:'Wed, Nov 17 @ 5:30 AM IST',
-            sub2:'Three Lakes, Three Parks in Queens'
+            img:'https://www.learnreligions.com/thmb/-EaRELG0wB_MIUeLY_tou5p4NxI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1127577455-af4de78e939a40d9b37032ef9e24fd8a.jpg',
+            sub1:'Hanukkah',
+            sub2:'Celebrate Hanukkah! '
+        },
+        {
+            img:'https://people.com/thmb/Qlca-bX1rj2syV9lG-CZkEsvOh8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/lunar-new-year-8-79db07041a3547ed8f3ba616a48e28c6.jpg',
+            sub1:'Chinese New Year',
+            sub2:'Celebrate the Year of the Snake!'
         
-    },
-    {
-        img:'https://secure-content.meetupstatic.com/images/classic-events/499449271/70x70.jpg?w=256',
-        head1:'Manhattan Professional Networking Meetup Group',
-        sub1:'Wed, Nov 17 @ 5:30 AM IST',
-        sub2:'NYC Networking Happy Hour Mixer 7-9PM'
-    },
-    {
-        img:'https://secure-content.meetupstatic.com/images/classic-events/499824685/70x70.jpg?w=256',
-        head1:'New York Energy Healing and Meditation',
-        sub1:'Fri, Nov 12 @ 12:30 AM IST',
-        sub2:'Peace workshop'
-    },
-    {
-        img:'https://secure-content.meetupstatic.com/images/classic-events/499449271/70x70.jpg?w=256',
-        head1:'Manhattan Professional Networking Meetup Group',
-        sub1:'Wed, Nov 17 @ 5:30 AM IST',
-        sub2:'NYC Networking Happy Hour Mixer 7-9PM'
     },
     
 
@@ -73,7 +57,7 @@ const Populargroup=()=>{
    return(
    <div style={{maxWidth:"1120px",margin:"auto"}}>
        <div className={style.head1}>
-           <h2 className={style.head2}>Popular Groups</h2>
+           <h2 className={style.head2}>Popular Events</h2>
            <div className={style.head3}><span className={style.head4}>Explore more groups</span>
            Explore more groups</div>
        </div>

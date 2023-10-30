@@ -1,7 +1,10 @@
 import React from "react";
 import style from "./partone.module.css";
-import Whatdoyouwant from "./Whatdoyouwant";
 import { Link } from "react-router-dom";
+import friends from "./friendspic.jpg";
+import culture from "./culturalpic.jpg";
+import zoompic from "./zoomlady.jpg";
+
 
 const Partone = () => {
   return (
@@ -11,12 +14,12 @@ const Partone = () => {
           <div className={style.main1_2}>
             <div className={style.main1_3}>
               <h1 className={style.main1_3_h}>
-                Dive in! There are so many things to do on Meetup
+                Find Your Heritage, Discover Your Commmunity
               </h1>
               <p style={{ marginTop: "32px" }}>
-                Join a group to meet people, make friends, find support, grow a
-                business, and explore your interests. Thousands of events are
-                happening every day, both online and in person!
+              Connect with a community of people who share similar heritages.
+              By joining a group, you can forge new friendships, access support networks, foster business growth, and delve into your passions. 
+              With thousands of events taking place daily, both in-person and online, there are countless opportunities for engagement.
               </p>
             </div>
             <div className={style.main1_4}>
@@ -40,23 +43,18 @@ const Partone = () => {
                       <img
                         style={{
                           objectFit: "cover",
-                          height: "auto",
+                          height: "10rem",
                           width: "auto",
                         }}
-                        src="https://secure-content.meetupstatic.com/images/next/images/indexPage/category1.jpg/360x200.jpg?w=1920"
+                        src="https://media.wnyc.org/i/800/0/c/85/1/shutterstock_172218053.jpg"
                         alt=""
                       />
                     </div>
                   </div>
                   <div className={style.main2_6}>
-                    Make new friends
+                    Discover new friends
                     <div className={style.main2_7}>
                       <div className={style.main2_8}>
-                        <img
-                          style={{ height: "18px", width: "18px" }}
-                          src="https://secure-content.meetupstatic.com/images/next/images/shared/right-arrow.svg?w=32"
-                          alt=""
-                        />
                       </div>
                     </div>
                   </div>
@@ -71,23 +69,18 @@ const Partone = () => {
                       <img
                         style={{
                           objectFit: "cover",
-                          height: "auto",
+                          height: "10rem",
                           width: "auto",
                         }}
-                        src="https://secure-content.meetupstatic.com/images/next/images/indexPage/category2.jpg/360x200.jpg?w=1920"
+                        src="https://www.peoplenewspapers.com/wp-content/uploads/2019/03/Festival-of-Joy.jpg"
                         alt=""
                       />
                     </div>
                   </div>
                   <div className={style.main2_6}>
-                    Explore the outdoors
+                    Immerse in your culture
                     <div className={style.main2_7}>
                       <div className={style.main2_8}>
-                        <img
-                          style={{ height: "18px", width: "18px" }}
-                          src="https://secure-content.meetupstatic.com/images/next/images/shared/right-arrow.svg?w=32"
-                          alt=""
-                        />
                       </div>
                     </div>
                   </div>
@@ -102,23 +95,18 @@ const Partone = () => {
                       <img
                         style={{
                           objectFit: "cover",
-                          height: "auto",
+                          height: "10rem",
                           width: "auto",
                         }}
-                        src="https://secure-content.meetupstatic.com/images/next/images/indexPage/category3.jpg/360x200.jpg?w=1920"
+                        src="https://www.highspeedinternet.com/app/uploads/2021/02/lady-talking-on-zoom-1.jpg"
                         alt=""
                       />
                     </div>
                   </div>
                   <div className={style.main2_6}>
-                    Connect over tech
+                    Meet in person or online
                     <div className={style.main2_7}>
                       <div className={style.main2_8}>
-                        <img
-                          style={{ height: "18px", width: "18px" }}
-                          src="https://secure-content.meetupstatic.com/images/next/images/shared/right-arrow.svg?w=32"
-                          alt=""
-                        />
                       </div>
                     </div>
                   </div>
@@ -128,32 +116,6 @@ const Partone = () => {
           </div>
         </div>
       </div>
-      <div className={style.main3}>
-        <div className={style.main3_1}>
-          <Link to="/groupAndEvnet" className={style.main3_2}>
-            Boost your career
-          </Link>
-          <Link to="/groupAndEvnet" className={style.main3_2}>
-            Find your zen
-          </Link>
-          <Link to="/groupAndEvnet" className={style.main3_2}>
-            Get moving
-          </Link>
-          <Link to="/groupAndEvnet" className={style.main3_2}>
-            Share language + culture
-          </Link>
-          <Link to="/groupAndEvnet" className={style.main3_2}>
-            Read to friends
-          </Link>
-          <Link to="/groupAndEvnet" className={style.main3_2}>
-            Write together
-          </Link>
-          <Link to="/groupAndEvnet" className={style.main3_2}>
-            Hone your craft
-          </Link>
-        </div>
-      </div>
-      <Whatdoyouwant />
     </div>
   );
 };

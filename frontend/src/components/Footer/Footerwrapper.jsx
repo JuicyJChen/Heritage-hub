@@ -8,7 +8,7 @@ const Footerwrapper = () => {
       <div className={style.footer_main_1}>
         <div className={style.footer_main_part1}>
           <div className={style.footer_main_part1_1}>
-            Create your own Meetup group.
+            Create your own Heritage group.
             <Link to="/start" className={style.footer_main_part1_2}>
               Get started
             </Link>
@@ -73,7 +73,7 @@ const Footerwrapper = () => {
             </ul>
           </div>
           <div className={style.footer_main_part2_1}>
-            <span>Meetup</span>
+            <span>HeritageHub</span>
             <ul style={{ listStyle: "none", margin: "0px", padding: "0px" }}>
               <li className={style.footer_main_part2_1_el}>
                 {" "}
@@ -88,7 +88,7 @@ const Footerwrapper = () => {
               </li>
               <li className={style.footer_main_part2_1_el}>
                 <a href="/" className={style.footer_main_part2_1_el_li}>
-                  Meetup po
+                HeritageHub po
                 </a>
               </li>
               <li className={style.footer_main_part2_1_el}>
@@ -176,7 +176,7 @@ const Footerwrapper = () => {
           </div>
         </div>
         <div className={style.footer_main_part4}>
-          <span className={style.text_white}>©2021 Meetup</span>
+          <span className={style.text_white}>©2023 HeritageHub</span>
           <a href="/" className={style.t}>
             Terms of Service
           </a>

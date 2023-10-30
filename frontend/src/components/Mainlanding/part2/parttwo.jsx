@@ -6,10 +6,9 @@ const Parttwo = () => {
   return (
     <div className={style.parttwo_1}>
       <div className={style.parttwo_2}>
-        <h2 className={style.parttwo_2_h}>How Meetup works</h2>
+        <h2 className={style.parttwo_2_h}>How HeritageHub Works</h2>
         <p className={style.parttwo_2_p}>
-          Meet new people who share your interests through online and in-person
-          events. It’s free to create an account.
+          <strong><i>Where global meets local, heart to heart</i></strong>
         </p>
         <div className={style.parttwo_3}>
           <div className={style.parttwo_3_1}>
@@ -113,11 +112,10 @@ const Parttwo = () => {
               </div>
               <div className={style.parttwo_3_4}>
                 <a href="/" className={style.parttwo_3_5}>
-                  <h3 className={style.parttwo_3_6}>Join a group</h3>
+                  <h3 className={style.parttwo_3_6}>Explore your lineage</h3>
                 </a>
                 <p className={style.parttwo_3_7}>
-                  Do what you love, meet others who love it, find your
-                  community. The rest is history!
+                Understand your ancestral roots and dive into your past!
                 </p>
               </div>
             </div>
@@ -163,11 +161,11 @@ const Parttwo = () => {
               </div>
               <div className={style.parttwo_3_4}>
                 <a href="/" className={style.parttwo_3_5}>
-                  <h3 className={style.parttwo_3_6}>Find an event</h3>
+                  <h3 className={style.parttwo_3_6}>Cultural Circles</h3>
                 </a>
                 <p className={style.parttwo_3_7}>
-                  Events are happening on just about any topic you can think of,
-                  from online gaming and photography to yoga and hiking.
+                  Connect with others who share your cultural background. Share stores, traditions,
+                  and memories that bind you together
                 </p>
               </div>
             </div>
@@ -271,19 +269,15 @@ const Parttwo = () => {
               </div>
               <div className={style.parttwo_3_4}>
                 <a href="/" className={style.parttwo_3_5}>
-                  <h3 className={style.parttwo_3_6}>Start a group</h3>
+                  <h3 className={style.parttwo_3_6}>Workshops</h3>
                 </a>
                 <p className={style.parttwo_3_7}>
-                  You don’t have to be an expert to gather people together and
-                  explore shared interests.
+                  Join heritage workshops that bring to life traditional crafts, cuisines, dances, and more.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <a href="/" className={style.parttwo_3_8}>
-          join meetup
-        </a>
       </div>
     </div>
   );
