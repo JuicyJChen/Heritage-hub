@@ -1,9 +1,9 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 
 const connect = () => {
   return mongoose.connect(
-    "mongodb+srv://soumya:SBZZiPCbV4kArLwC@cluster0.7lhmb.mongodb.net/meetUpClone?retryWrites=true&w=majority"
-  );
-};
+    "mongodb+srv://jordchen:BtjekoM36VkjUlN0@cluster0.5zynf14.mongodb.net/?retryWrites=true&w=majority"
+  )
+}
 
-module.exports = connect;
+module.exports = connect
