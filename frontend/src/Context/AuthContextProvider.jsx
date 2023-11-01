@@ -10,10 +10,10 @@ const AuthContextProvider = ({ children }) => {
     dateAndTime: "Saturday November 13 2021",
     hostedBy: "618c863f19da5468323f186b",
     eventImage:
-      "https://secure-content.meetupstatic.com/images/classic-events/499462897/333x188.webp",
+      "https://logowik.com/content/uploads/images/chicago-bears2550.jpg",
     eventType: "group",
     groupDetail: {
-      groupName: "NYC/NJ Photo Walks Meetup Group",
+      groupName: "Chicago Bears",
       groupPrivate: "Public group",
     },
     eventLocationType: "In person",

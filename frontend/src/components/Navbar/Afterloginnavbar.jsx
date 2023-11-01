@@ -136,7 +136,7 @@ const Afterloginnavbar = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="/" className={style.header_5_1_form_17}>
+                            <Link to="/profile" className={style.header_5_1_form_17}>
                               Your groups
                             </Link>
                           </li>

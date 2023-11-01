@@ -35,7 +35,7 @@ const EventC1 = () => {
           <br /> area, and more can join you online.
         </h4>
         <h2>
-          Bangalore , IN <span>Change Location</span>
+          Ann Arbor, MI <span>Change Location</span>
         </h2>
       </div>
       <div className={styles.eve1_button}>
