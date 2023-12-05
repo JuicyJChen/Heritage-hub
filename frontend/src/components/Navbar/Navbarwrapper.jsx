@@ -36,8 +36,6 @@ const Navbarwrapper = () => {
                     <option value="português">Português</option>
                     <option value="中文">中文</option>
                     <option value="हिन्दी">हिन्दी</option>
-
-
                   </select>
                 </div>
             </div>

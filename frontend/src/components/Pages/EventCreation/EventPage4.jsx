@@ -84,7 +84,7 @@ const EventC4 = () => {
         <Link to="/start/name">
           <button className={styles.eve2_back}>Back</button>
         </Link>
-        <Link to="/start/guidelines">
+        <Link to="/">
           <button className={styles.eve2_next}>Next</button>
         </Link>
       </div>

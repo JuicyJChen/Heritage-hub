@@ -7,7 +7,6 @@ import { postData } from "../../../utils/fetchData";
 
 export default function PaymentPage() {
   const { createEventData } = useContext(AuthContext);
-
   const hanlePostGroup = async () => {
     let data = await postData(createEventData);
     console.log(data);
