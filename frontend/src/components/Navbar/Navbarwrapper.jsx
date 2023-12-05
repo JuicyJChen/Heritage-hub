@@ -28,6 +28,18 @@ const Navbarwrapper = () => {
                   Sign up
                 </Link>
               </div>
+              <div className={style.dropdown}>
+                  <label htmlFor="language">Language:</label>
+                  <select id="language" name="language">
+                    <option value="english">English</option>
+                    <option value="español">Español</option>
+                    <option value="português">Português</option>
+                    <option value="中文">中文</option>
+                    <option value="हिन्दी">हिन्दी</option>
+
+
+                  </select>
+                </div>
             </div>
           </div>
         </div>
