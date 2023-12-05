@@ -30,11 +30,10 @@ const EventC2 = () => {
       <div className={styles.eve1}>
         <h5 style={{ marginLeft: "280px", fontSize: "15px" }}>Step 2 of 7</h5>
         <h1 style={{ fontSize: "40px", width: "80%" }}>
-          Choose a few topics that describe your group's interests
+          Choose a few topics that describe your event
         </h1>
         <h4>
-          Be specific! This will help us promote your group to the right people.
-          You can choose up to 15 topics.
+          Be specific! This will help us promote your event to the right people.
         </h4>
         <h1>
           <input

@@ -28,9 +28,9 @@ const EventC3 = () => {
       </div>
       <div className={styles.eve1}>
         <h5 style={{ marginLeft: "280px", fontSize: "15px" }}>Step 3 of 7</h5>
-        <h1>What will your group’s name be?</h1>
+        <h1>What will your event’s name be?</h1>
         <h4>
-          Choose a name that will give people a clear idea of what the group is
+          Choose a name that will give people a clear idea of what the event is
           about. Feel free to get
           <br />
           creative! You can edit this later if you change your mind.
@@ -46,7 +46,7 @@ const EventC3 = () => {
             onChange={(e) =>
               setCreateEventData({ ...createEventData, title: e.target.value })
             }
-            placeholder="Enter Group Name"
+            placeholder="Enter Event Name"
           />
         </h1>
       </div>

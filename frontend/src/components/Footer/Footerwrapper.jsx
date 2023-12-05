@@ -8,7 +8,7 @@ const Footerwrapper = () => {
       <div className={style.footer_main_1}>
         <div className={style.footer_main_part1}>
           <div className={style.footer_main_part1_1}>
-            Create your own Heritage group.
+            Create your own Heritage Event.
             <Link to="/start" className={style.footer_main_part1_2}>
               Get started
             </Link>

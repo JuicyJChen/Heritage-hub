@@ -28,14 +28,14 @@ const EventC1 = () => {
       </div>
       <div className={styles.eve1} style={{ height: "65vh" }}>
         <h5 style={{ marginLeft: "280px", fontSize: "15px" }}>Step 1 of 7</h5>
-        <h1>First, set your group’s location.</h1>
+        <h1>First, set your events’s location.</h1>
         <h4>
-          Meetup groups meet locally, in person and online. We'll connect you
+          HeritageHub Events meet locally, in person and online. We'll connect you
           with people in your
           <br /> area, and more can join you online.
         </h4>
         <h2>
-          Ann Arbor, MI <span>Change Location</span>
+          New York, NY <span>Change Location</span>
         </h2>
       </div>
       <div className={styles.eve1_button}>

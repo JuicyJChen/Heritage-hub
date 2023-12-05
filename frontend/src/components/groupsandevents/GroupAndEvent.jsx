@@ -90,13 +90,13 @@ export default function GroupAndEvent() {
             className={`${showEvent === "event" && styles.makeItFocus}`}
             onClick={() => changeEToG("event")}
           >
-            Events
+            Groups
           </div>
           <div
             className={`${showEvent === "group" && styles.makeItFocus}`}
             onClick={() => changeEToG("group")}
           >
-            Groups
+            Events
           </div>
         </div>
         <div className={styles.filterBoxes}>

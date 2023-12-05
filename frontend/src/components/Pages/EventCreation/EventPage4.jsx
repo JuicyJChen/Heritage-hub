@@ -30,20 +30,17 @@ const EventC4 = () => {
       <div className={styles.eve1}>
         <h5 style={{ marginLeft: "280px", fontSize: "15px" }}>Step 4 of 7</h5>
         <h1>
-          Now describe what your group <br />
-          will be about
+          Now describe your Event
         </h1>
         <h4>
-          People will see this when we promote your group but you’ll be able to
+          People will see this when we promote your event but you’ll be able to
           add to it later, too.
         </h4>
         <br />
         <div className={styles.eve3_list}>
-          <p>1. What's the purpose of the group?</p>
+          <p>1. What's the purpose of the event?</p>
           <br />
           <p>2. Who should join?</p>
-          <br />
-          <p>3. What will you do at your events?</p>
         </div>
 
         <textarea
