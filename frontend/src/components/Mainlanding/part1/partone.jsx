@@ -24,11 +24,7 @@ const Partone = () => {
             </div>
             <div className={style.main1_4}>
               <div className={style.main1_5}>
-                <img
-                  className={style.main1_img}
-                  src="https://www.meetup.com/_next/image/?url=%2Fimages%2Fshared%2Fonline_events.svg&w=640&q=75"
-                  alt=""
-                />
+             
               </div>
             </div>
           </div>

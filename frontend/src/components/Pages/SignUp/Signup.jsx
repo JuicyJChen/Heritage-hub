@@ -15,11 +15,7 @@ const Signup = () => {
           <Link to="/">
             <div className={Styles.close}>&times;</div>
           </Link>
-          <img
-            className={Styles.signup__meetupLogo}
-            src="https://secure.meetupstatic.com/s/img/642287997414509021596/logo/svg/logo--mSwarm--2color.svg"
-            alt="logo"
-          />
+         
           <h1 className={Styles.signup_heading}>Sign up</h1>
           <div className={Styles.signup__already_member_text}>
             {" "}
